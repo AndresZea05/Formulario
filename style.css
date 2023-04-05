@@ -1,0 +1,153 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: #141e30;
+  }
+  
+.contenidototal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  
+   /*Boton*/
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+   /*Tabla*/
+.tabla{
+    
+    position: absolute;
+    top: 700px;
+    width: 95%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+  
+
+
+}
+table {
+	margin: 20px auto;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+thead {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+th, td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+@media screen and (max-width:600px){ 
+    .login-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      
+      }
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="contenidototal">
+    <div class="login-box">
+
+    <form id="contact-form">
+    
+    <div class="user-box">
+        <input  type="number"   id="ID" required>
+        <label>ID</label>
+    </div>
+    <div class="user-box">
+       
+		<input type="text" id="name"  required>
+        <label for="name">Nombre</label>
+    </div>
+    <div class="user-box">
+        
+		<input type="text" id="last_name" required>
+        <label >Apellido</label>
+    </div>
+    <div class="user-box">
+        
+		<input type="text" id="nickName" required>
+        <label >NickName</label>
+    </div>
+        <div class="user-box">
+        
+		<input type="text" id="pais"  required>
+        <label ">Pais</label>
+    </div>
+    <div class="user-box">
+        
+		<input type="number" id="numeroTelefono"  required>
+        <label>Numero de telefono</label>
+    </div>
+     <div class="user-box">
+		
+		<input type="text" id="email"  required >
+        <label >Email</label>
+    </div>
+    <div class="user-box">
+		
+		<input type="text" id="cargo"  required>
+        <label >Profesion o cargo</label>
+    </div>
+		<button onclick="registro()" type="submit" id="submit">Registrar</button>
+        <button onclick="listado()" type="submit" id="boton2">Mostrar Lista</button>
+	</form>
+
+</div>
+    
+
+<div class="tabla">
+    <div class="Contenctabla">
+        <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>NickName</th>
+                <th>Pais</th>
+                <th>Numero</th>
+                <th>Email</th>
+                <th>Cargo</th>
+              </tr>
+            </thead>
+            <tbody id="tablausuario">
+            </tbody>
+          </table>
+    </div>
+</div>
+  <script src="main.js"></script>
+</div>
+  
+</body>
+</html>

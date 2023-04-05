@@ -1,0 +1,33 @@
+[
+    {
+      "id": "10470446",
+      "nombre": "Andrew",
+      "apellido": "Gomez",
+      "nickName": "Andrew124",
+      "pais": "Ecuador",
+      "numeroTelefono": "3143197687",
+      "email": "andrew124@gmail.com",
+      "cargo": "Operario"
+    },
+    {
+        "id": "804647467",
+        "nombre": "Daniel",
+        "apellido": "Gonzalez",
+        "nickName": "Dani34",
+        "pais": "Colombia",
+        "numeroTelefono": "3008329305",
+        "email": "Dani124@gmail.com",
+        "cargo": "Estudiante"
+    },
+    {
+        "id": "7205937",
+        "nombre": "Carlos",
+        "apellido": "Lopez",
+        "nickName": "Lopez25",
+        "pais": "Argentina",
+        "numeroTelefono": "3016023165",
+        "email": "carlosLopez@gmail.com",
+        "cargo": "Ingeniero"
+    }
+    
+  ]
